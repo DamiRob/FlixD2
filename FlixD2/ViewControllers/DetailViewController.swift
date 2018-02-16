@@ -13,7 +13,7 @@ enum MovieKeys {
     static let backDrop = "backdrop_path"
     static let poster = "poster_path"
     static let releasedate = "release_date"
-    static let overiview = "overview"
+    static let overview = "overview"
 }
 class DetailViewController: UIViewController {
 
@@ -34,7 +34,7 @@ class DetailViewController: UIViewController {
           
             titlelabel.text = movie[MovieKeys.title] as? String
             releasedate.text = movie[MovieKeys.releasedate] as? String
-            Overview.text = movie[MovieKeys.overiview] as? String
+            Overview.text = movie[MovieKeys.overview] as? String
             let backdropString = movie[MovieKeys.backDrop] as! String
             let posterString = movie[MovieKeys.poster] as! String
             let baseURLString = "https://image.tmdb.org/t/p/w500"

@@ -51,6 +51,7 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
                 let movies = dataDictionary["results"] as! [[String: Any]]
                 self.movies = movies
                 self.TableView.reloadData()
+               
                 
                 
             }
