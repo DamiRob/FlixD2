@@ -1,10 +1,9 @@
-<<<<<<< HEAD
-# FlixD2# 
+
 
 Project 1 - *FlixD2*
 
 =======
->>>>>>> 72bed5fa7f8413330810a5cf2f34bd55030e4cd9
+
 **FlixD2* is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 =======
 Project 1 - FlixD2
@@ -47,7 +46,6 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 ## Video Walkthrough
 
-<<<<<<< HEAD
 
 =======
 <a href="https://imgur.com/gdJ5qwS"><img src="https://i.imgur.com/gdJ5qwS.gif" title="source: imgur.com" /></a>
