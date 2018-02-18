@@ -193,31 +193,32 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="f32-mw-eXM">
-                                <rect key="frame" x="0.0" y="88" width="359" height="641"/>
+                                <rect key="frame" x="0.0" y="88" width="375" height="641"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="NHQ-NK-KBg">
-                                    <size key="itemSize" width="157" height="211"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="0.0" id="NHQ-NK-KBg">
+                                    <size key="itemSize" width="125" height="211"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PosterCell" id="Fek-aw-0NI" customClass="PosterCell" customModule="FlixD2" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="157" height="211"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="125" height="211"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                            <rect key="frame" x="0.0" y="0.0" width="157" height="211"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="125" height="211"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EM8-Iv-Sxd">
-                                                    <rect key="frame" x="0.0" y="-16" width="157" height="227"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="125" height="211"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 </imageView>
                                             </subviews>
                                         </view>
                                         <connections>
                                             <outlet property="posterimageView" destination="EM8-Iv-Sxd" id="if9-nQ-URg"/>
+                                            <segue destination="kj9-yA-mYc" kind="show" id="zzF-fh-96b"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -233,7 +234,22 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k21-O5-2Sc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-92" y="832.75862068965523"/>
+            <point key="canvasLocation" x="729" y="833"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="YSZ-cg-iRx">
+            <objects>
+                <viewController id="kj9-yA-mYc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CXU-4a-i5p">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="oar-dY-DyY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="msr-Rb-r1H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1498" y="833"/>
         </scene>
         <!--SuperHero-->
         <scene sceneID="Bpd-y1-veY">

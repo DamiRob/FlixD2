@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FlixD2/ViewControllers/NowPlayingViewController.swift"
-            timestampString = "540509503.480636"
+            timestampString = "540675377.254853"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "98"
-            endingLineNumber = "98">
+            startingLineNumber = "100"
+            endingLineNumber = "100">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

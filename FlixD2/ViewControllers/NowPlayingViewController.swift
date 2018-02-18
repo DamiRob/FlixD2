@@ -24,7 +24,7 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let refreshControl = UIRefreshControl()
+       refreshControl = UIRefreshControl ()
         refreshControl.addTarget(self, action: #selector(NowPlayingViewController.didPullToRefresh(_:)), for: .valueChanged)
         TableView.insertSubview(refreshControl, at: 0)
         
@@ -51,6 +51,8 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
                 let movies = dataDictionary["results"] as! [[String: Any]]
                 self.movies = movies
                 self.TableView.reloadData()
+                self.refreshControl.endRefreshing()
+                
                
                 
                 
