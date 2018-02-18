@@ -61,6 +61,28 @@ The following **stretch** features are implemented:
 
 The following **additional** features are implemented:
 
+# Lab 3 - *FlixD2*
+
+**FlixD2** is a movies app displaying box office and top rental DVDs using [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+
+Time spent: **X** hours spent in total
+
+## User Stories
+
+The following **required** user stories are complete:
+
+- The following screens use AutoLayout to adapt to various orientations and screen sizes
+   - [ ] Movie feed view (+3pt)
+   - [ ] Detail view (+2pt)
+
+The following **stretch** user stories are implemented:
+
+- [ ] Dynamic Height Cells (+1)
+- [ ] Collection View AutoLayout (+2)
+
+The following **additional** user stories are implemented:
+
+- [ ] List anything else that you can get done to improve the app functionality! (+1-3pts)
 
 ## Video Walkthrough
 
