@@ -6,8 +6,7 @@ Project 1 - *FlixD2*
 =======
 Project 1 - FlixD2
 
-**FlixD2** is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
->>>>>>> 3a3f80766d6d0d47e5bf2e6c20548dfd28fcc4e1
+**FlixD2** is a movies app using the [The Movie Database API]
 
 Time spent: **X** hours spent in total
 
@@ -47,9 +46,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
-
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<a href="https://imgur.com/gdJ5qwS"><img src="https://i.imgur.com/gdJ5qwS.gif" title="source: imgur.com" /></a>
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
