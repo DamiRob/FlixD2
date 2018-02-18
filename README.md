@@ -1,31 +1,33 @@
+<<<<<<< HEAD
 # FlixD2# 
 
 Project 1 - *FlixD2*
 
+=======
+>>>>>>> 72bed5fa7f8413330810a5cf2f34bd55030e4cd9
 **FlixD2* is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 =======
 Project 1 - FlixD2
 
-**FlixD2** is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
->>>>>>> 3a3f80766d6d0d47e5bf2e6c20548dfd28fcc4e1
+**FlixD2** is a movies app using the [The Movie Database API]
 
-Time spent: **X** hours spent in total
+Time spent: **5** hours spent in total
 
 ## User Stories
 
 The following **required** user stories are complete:
 
-<<<<<<< HEAD
+
 - [x] User sees app icon in home screen and styled launch screen (+1pt)
 - [x] User can scroll through a list of movies currently playing in theaters from The Movie DB API (+5pt)
 - [x] User can "Pull to refresh" the movie list (+2pt)
 - [x]User sees a loading state while waiting for the movies to load (+2pt)
 =======
-- [ x] User sees app icon in home screen and styled launch screen (+1pt)
-- [ x] User can scroll through a list of movies currently playing in theaters from The Movie DB API (+5pt)
-- [ x] User can "Pull to refresh" the movie list (+2pt)
-- [ x] User sees a loading state while waiting for the movies to load (+2pt)
->>>>>>> 3a3f80766d6d0d47e5bf2e6c20548dfd28fcc4e1
+- [x] User sees app icon in home screen and styled launch screen (+1pt)
+- [x] User can scroll through a list of movies currently playing in theaters from The Movie DB API (+5pt)
+- [x] User can "Pull to refresh" the movie list (+2pt)
+- [x] User sees a loading state while waiting for the movies to load (+2pt)
+
 
 The following **stretch** user stories are implemented:
 
@@ -45,7 +47,11 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 ## Video Walkthrough
 
+<<<<<<< HEAD
 
+=======
+<a href="https://imgur.com/gdJ5qwS"><img src="https://i.imgur.com/gdJ5qwS.gif" title="source: imgur.com" /></a>
+>>>>>>> 72bed5fa7f8413330810a5cf2f34bd55030e4cd9
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
