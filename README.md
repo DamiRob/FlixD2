@@ -72,12 +72,12 @@ Time spent: **X** hours spent in total
 The following **required** user stories are complete:
 
 - The following screens use AutoLayout to adapt to various orientations and screen sizes
-   - [ ] Movie feed view (+3pt)
-   - [ ] Detail view (+2pt)
+   - [x] Movie feed view (+3pt)
+   - [x] Detail view (+2pt)
 
 The following **stretch** user stories are implemented:
 
-- [ ] Dynamic Height Cells (+1)
+- [x] Dynamic Height Cells (+1)
 - [ ] Collection View AutoLayout (+2)
 
 The following **additional** user stories are implemented:
@@ -88,7 +88,7 @@ The following **additional** user stories are implemented:
 
 
 =======
-<a href="https://imgur.com/gdJ5qwS"><img src="https://i.imgur.com/gdJ5qwS.gif" title="source: imgur.com" /></a>
+<a href="https://imgur.com/L72CutG"><img src="https://i.imgur.com/L72CutG.gif" title="source: imgur.com" /></a>
 
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
